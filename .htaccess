@@ -1,0 +1,9 @@
+RewriteEngine on
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-s
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^releases/latest$  /releases/latest.php [L]
+
+SetEnv SERVER_ADMIN niklas@interworkfont.co
