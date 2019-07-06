@@ -1,0 +1,17 @@
+/* PROJECT */
+Site Name:  Inter Work Font
+Site URL:   https://interworkfont.co
+Created:    2019/07/06
+Standards:  HTML5, CSS3, ES6
+
+/* INTER */
+Name:       Rasmus Andersson
+Contact:    rasmus@notion.se
+Site:       https://rsms.me
+Location:   San Francisco, USA
+
+/* INTER WORK, WEBSITE */
+Name:       Niklas Sonnenschein
+Contact:    desk@niklassonnenschein.de
+Site:       https://niklassonnenschein.de
+Location:   Schwäbisch Gmünd, Germany

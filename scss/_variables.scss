@@ -1,9 +1,11 @@
 /* Fonts */
 
-$inter-work: "Inter Work", "Inter", sans-serif;
 $inter: "Inter", sans-serif;
+$inter-work: "Inter Work", $inter;
+$inter-var: "Inter Work Variable", $inter-work;
 
 /* Colors */
+$navy: #0e101a;
 $sunset-orange: #fd533d;
 $gorse: #ffed4f;
 $neon-carrot: #fe9a36;
@@ -46,42 +48,3 @@ $ease-in-out-quart: cubic-bezier(0.77, 0, 0.175, 1);
 $ease-in-expo: cubic-bezier(0.95, 0.05, 0.795, 0.035);
 $ease-out-expo: cubic-bezier(0.19, 1, 0.22, 1);
 $ease-in-out-expo: transform 0.6s cubic-bezier(1, 0, 0, 1);
-
-:root {
-  --sunset-orange: $sunset-orange;
-  --gorse: $gorse;
-  --neon-carrot: $neon-carrot;
-  --martinique: $martinique;
-  --casal: $casal;
-  --mountain-meadow: #{$mountain-meadow};
-  --royal-blue: $royal-blue;
-  --muted-spirit: $muted-spirit;
-  --cascade: $cascade;
-  --lola: $lola;
-  --white-rock: $white-rock;
-  --black: $black;
-}
-
-.home, .projekt {
-  --accent-color: #{rgba($cascade, 0.3)};
-}
-
-.events {
-  --accent-color: #{$lola};
-}
-
-.werkstatt {
-  --accent-color: #{$sunset-orange};
-}
-
-.werktor {
-  --accent-color: #{$neon-carrot};
-}
-
-.workspace {
-  --accent-color: #{$mountain-meadow};
-}
-
-.raeume, .service {
-  --accent-color: #{$white-rock};
-}

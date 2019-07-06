@@ -1,8 +1,9 @@
 <?php
-$dir = "/Users/niklas/dev/remote-dev/inter-work-website/releases";
+$dir = "/www/htdocs/w015aa5a/interworkfont.co/releases";
 $pattern = '/\.(zip)$/';
 $newstamp = 0;
 $newname = "";
+
 
 if ($handle = opendir($dir)) {
  while (false !== ($fname = readdir($handle)))  {
