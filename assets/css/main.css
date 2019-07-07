@@ -2772,14 +2772,6 @@ html {
   .mx-xl-auto {
     margin-left: auto !important; } }
 
-/* Inter Work */
-@font-face {
-  font-family: 'Inter Work';
-  src: url("../fonts/Inter_Work.eot");
-  src: url("../fonts/Inter_Work.eot?#iefix") format("embedded-opentype"), url("../fonts/Inter_Work.woff2") format("woff2"), url("../fonts/Inter_Work.woff") format("woff");
-  font-weight: 500;
-  font-style: normal; }
-
 /* Variable Font */
 @font-face {
   font-family: 'Inter Work Variable';
@@ -2972,7 +2964,7 @@ body {
       width: calc(var(--container-width) / 12);
       height: calc(var(--container-width) / 12);
       background: rgba(43, 48, 78, 0.2);
-      font-family: "Inter Work Variable", "Inter Work", "Inter", sans-serif;
+      font-family: "Inter Work Variable", "Inter", sans-serif;
       font-size: calc(var(--container-width) / calc(20 * 2));
       font-variation-settings: "wght" 400, "stre" 100;
       cursor: cell; }
@@ -3023,10 +3015,15 @@ body {
         margin-bottom: 1rem; } }
   #sampler span {
     display: inline-block;
-    width: 120px;
     font-weight: 500; }
+    @media (min-width: 768px) {
+      #sampler span {
+        width: 120px; } }
   #sampler input {
     -webkit-appearance: none; }
+    @media (max-width: 768px) {
+      #sampler input {
+        width: 100%; } }
     #sampler input::-webkit-slider-thumb {
       -webkit-appearance: none;
       border: 2px solid #0e101a;
